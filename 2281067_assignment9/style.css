@@ -62,20 +62,21 @@ header {
     color: black;
 }
 
-.oppo {
+#oppo {
     background-color: rgb(8, 122, 8);
     padding: 3px;
     border-radius: 5px;
     color: white;
-    
+    text-transform: capitalize;
 }
 
-.oppo a:hover {
+#oppo > li a:hover {
     color: white;
 }
+
 .li2-nav a:hover {
     color: rgb(159, 46, 159);
-    transition: all 0.3s ease-in-out    ;
+    transition: all 0.3s ease-in-out;
 }
 
 h1 {
@@ -84,47 +85,52 @@ h1 {
     justify-content: center;
     text-align: center;
 }
-.dua{
+.adi1 {
     text-align: center;
     padding: 20px;
   }
   
-  #ye{
+  #adi {
     color: #3f3f3f;
   }
   
-  #sa{
+  #detikinet {
   color: #b72697;  
   }
   
-  .tiga{
+  .hari {
     text-align: center;
     font-size: 13px;
     opacity: 0.5;
   }
   
-  #gambar2{
+  #img {
     justify-content: center;    
     padding-top: 20px;
     margin-left: 5px;
     width: 700px;
   }
   
-  #empat{
+  #bocoran {
     font-size: 12px;
     margin-left: 5px;
   }
       
-  #kaos{
+  #jakarta {
     width: 720px;
     margin-left: 300px;
   }
-.jaket {
-    margin-left: 300px;
+
+
+.footer {
+    border-top: 5px solid purple;
 }
 
 .imgfooter {
     width: 5px;
     height: 5px;
-    list-style-type: none;
+}
+
+.footer > ul > li {
+    list-style-type: none ;
 }
